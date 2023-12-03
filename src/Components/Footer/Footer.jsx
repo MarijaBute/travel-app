@@ -41,15 +41,16 @@ const Footer = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium labore iusto vero quam, consectetur consequuntur deserunt, odio laborum esse blanditiis repellat aliquam, ut tempore non doloribus architecto cum modi. Dolores.
                     </div>
 
-                    <div className="footerSocials">
+                    <div className="footerSocials flex">
                         <AiOutlineTwitter className="icon" />
                         <AiFillYoutube className="icon" />
                         <AiFillInstagram className="icon" />
                         <FaTripadvisor className="icon" />
                     </div>
                    </div> 
-                {/* Group One*/}
+               
                    <div className="footerLinks grid">
+                     {/* Group One*/}
                     <div className="linkGroup">
                         <span className="groupTitle">
                             OUR AGENCY
@@ -80,6 +81,74 @@ const Footer = () => {
                             Payment
                         </li>
                     </div>
+                    {/* Group two*/}
+                    <div className="linkGroup">
+                        <span className="groupTitle">
+                            PARTNERS
+                        </span>
+
+                        <li className="footerList flex">
+                            <FiChevronRight className="icon" />
+                            Bookings
+                        </li>
+
+                        <li className="footerList flex">
+                            <FiChevronRight className="icon" />
+                            Rentcars
+                        </li>
+
+                        <li className="footerList flex">
+                            <FiChevronRight className="icon" />
+                            HostelWorld
+                        </li>
+
+                        <li className="footerList flex">
+                            <FiChevronRight className="icon" />
+                            Trivago
+                        </li>
+
+                        <li className="footerList flex">
+                            <FiChevronRight className="icon" />
+                            TripAdvisor
+                        </li>
+                    </div>
+
+                     {/* Group Three*/}
+                     <div className="linkGroup">
+                        <span className="groupTitle">
+                            LAST MINUTE
+                        </span>
+
+                        <li className="footerList flex">
+                            <FiChevronRight className="icon" />
+                            London
+                        </li>
+
+                        <li className="footerList flex">
+                            <FiChevronRight className="icon" />
+                            Paris
+                        </li>
+
+                        <li className="footerList flex">
+                            <FiChevronRight className="icon" />
+                            California
+                        </li>
+
+                        <li className="footerList flex">
+                            <FiChevronRight className="icon" />
+                            Oceania
+                        </li>
+
+                        <li className="footerList flex">
+                            <FiChevronRight className="icon" />
+                            Greece
+                        </li>
+                    </div>
+
+                   </div>
+
+                   <div className="footerDiv">
+                    <small>COPYRIGHT MARIJA BUTESKA</small>
                    </div>
                 </div>
             </div>
