@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
 
                     <div data-aos="fade-up" className="footerParagraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium labore iusto vero quam, consectetur consequuntur deserunt, odio laborum esse blanditiis repellat aliquam, ut tempore non doloribus architecto cum modi. Dolores.
+                    Explore unique destinations with our curated travel experiences. From tranquil beaches to majestic mountains, our trips promise unforgettable memories. Join us on a journey of discovery, creating moments that last a lifetime. Immerse yourself in the allure of travel, guided by our passion for extraordinary adventures worldwide.
                     </div>
 
                     <div data-aos="fade-up" className="footerSocials flex">

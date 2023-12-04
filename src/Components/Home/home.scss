@@ -24,7 +24,7 @@
         position: absolute;
         height: 100%;
         width: 100%;
-        background: rgb(47, 106, 127);
+        background: rgba(47, 106, 127, 0.5);
         top: 0;
         bottom: 0;
         z-index: 1;
@@ -51,6 +51,7 @@
         justify-content: center;
         margin: auto;
         color: var(--whiteColor);
+        opacity: 94%;
         z-index: 100;
 
         .textDiv {
@@ -160,6 +161,84 @@
                 font-weight: 600;
                 &:hover{
                     color: var(--PrimaryColor);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .home{
+        .homeContent{
+            .textDiv{
+                .smallText{
+                    font-size: 16px;
+                }
+
+                .homeTitle{
+                    position: relative;
+                    font-size: 2.3rem;
+                    width: max-content;
+
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        background: var(--SecondaryColor);
+                        height: 5px;
+                        width: 145px;
+                        right: 0px;
+                        bottom: 5px;
+                        z-index: -1;
+                    }
+                }
+            }
+
+            .cardDiv{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 660px){
+        .home{
+            .homeContent{
+                .cardDiv{
+                    padding: 2rem 1rem;
+                    grid-template-columns: repeat(3, 1fr);
+                }
+            }
+        }
+}
+
+@media screen and (min-width: 940px){
+    .home{
+        height: 85vh;
+    }
+}
+
+@media screen and (min-width: 1240px){
+    .home{
+        height: 95vh;
+
+        .homeContent{
+            // padding-left: 0;
+            // padding-right: 0;
+
+            .cardDiv{
+                padding: 2rem 1rem;
+                grid-template-columns: repeat(3, 1fr);
+                .input{
+                    margin-bottom: 1rem;
+                }
+
+                .searchOptions{
+                    bottom: -1rem;
+                    padding: 8px 1rem;
+
+                    span{
+                        font-size: 17px;
+                    }
                 }
             }
         }
